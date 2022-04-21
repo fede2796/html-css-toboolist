@@ -21,7 +21,7 @@ header{
     font-size: 40px;
     font-weight: 400px;
     vertical-align: middle;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 .main{
@@ -67,7 +67,7 @@ hr{
     list-style-type: none;
     font-size: 20px;
     font-weight:bold ;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     margin-top: 40px;
 }
 .points li{
@@ -77,6 +77,7 @@ hr{
     font-size: 20px;
     font-weight: 200;
 }
+
 .check{
     margin-top: 10px;
     background-color: white;
@@ -92,9 +93,17 @@ hr{
 }
 .listbutton{
  
-    font-size: 10px;
-    margin-top: 10px;
-    border: none;
+    width: 70px;
+    height: 30px;
+    background: #0060A0;
+    display: inline-block;
+    text-align: center;
+    line-height: 5px;
+    padding-top: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 30%;
+    font-size: 15px;
 }
 .editorial{
     background-color:  #45abea;
