@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: pink;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+.logo{
+
+    height: 70px;
+    vertical-align: middle;
+}
+
+.brand{
+    font-size: 40px;
+    font-weight: 400px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: white;
+    margin-top: 50px;
+}
+.conteiner{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    
+    
+}
+.search{
+    padding-left: 7%;
+}
+.search button{
+
+    padding: 6px 10px;
+    border-radius: 13%;
+    
+}
+.task{
+    border: 1px solid #47adf1;
+    color: white;
+    background-color: #47adf1;
+    
+}
+.selection{
+
+    border: 1px solid #c5cbd0;
+    background-color: white;
+    color: #c5cbd0;
+}
+hr{
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #f6f8f9 ;
+}
+.list{
+    margin-top: 40px;
+}
+.points{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight:bold ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.points li{
+    margin-top: 10px;
+    margin-left: 18px;
+    list-style-type: none;
+}
+.check{
+    margin-top: 20px;
+    background-color: white;
+    border:1px solid #64c0a9;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    color: #64c0a9;
+    
+}
